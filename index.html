@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Facebook post</title>
+    <script src="https://kit.fontawesome.com/ffa78c1ea3.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="img/png" href="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png">
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+           <h1> <i class="fa-brands fa-facebook fa-shake" style="color: #a5c530;"></i> Facebook post clone</h1>
+        </div>
+        <div class="postBox" >
+            <div class="head">
+                <h1>create post</h1>
+            </div>
+            <div class="name">
+                <img src="/img/WhatsApp Image 2024-01-24 at 12.18.36 PM.jpeg" alt="">
+               <div class="inputs">
+                 <!-- <input type="text" class="lop" placeholder="Enter your name" id="firstName" onclick="firstName()"> -->
+                 <h4 id="head4" class="heading4">Musa AL Qadri</h4>
+                 <h4>friends list</h4>
+               </div>
+            </div>
+            <hr style="width: 100%;">
+             <div class="postarea" id="posts">
+                <!-- <input type="text"> -->
+                <textarea name="" id="text-area" cols="30" rows="10"></textarea>
+             </div>
+             <div class="style" >
+                <p class="hide" id="capatial" onclick="capital()">Aa</p>
+                <p class="hide"><input type="number"  name="" id="fontsize" onclick="changeFontSize()"></p>
+                <p class="hide" onclick="changeText()" id="bols"><b>B</b></p>
+                <p  class="hide"onclick="changeText()" id="ital"><i><B>I</B></i></p>
+                <p  class="hide"onclick="changeText()" id="under"><b><u>U</u></b></p>
+                <p class="hide" onclick="alinmentleft()" id="left"><b><i class="fa-solid fa-align-left"></i></b></p>
+                <p class="hide" onclick="alinmentcenter()" id="center"><b><i class="fa-solid fa-align-center"></i></b></p>
+                <p  class="hide"onclick="alinmentright()" id="right"><b><i class="fa-solid fa-align-right"></i></b></p>
+
+             </div>
+             <div class="backgroungset">
+                <span class="hide"><input type="color" name="inputcolour" id="inputTextColour" onchange="textcolor()"></span>
+                <span class="hide" id="img1"><img src="https://images.pexels.com/photos/268941/pexels-photo-268941.jpeg" alt="" onclick="setBackGround()"></span>
+                <span class="hide" id="img2"><img src="https://e0.pxfuel.com/wallpapers/91/989/desktop-wallpaper-background-for-facebook-cover-5-z.jpg" alt=""onclick="setBackGround()"></span>
+                <span class="hide" id="img3"><img src="https://c4.wallpaperflare.com/wallpaper/305/547/705/facebook-cover-abstract-wallpaper-preview.jpg   " alt="" onclick="setBackGround()"></span>
+                <span class="hide" id="img4"><img src="https://i.pinimg.com/736x/cd/c5/b8/cdc5b8748da6a65665c0d1280256b068.jpg" alt="" onclick="setBackGround()"></span>
+                <span class="hide" id="img5"><img src="https://i.pinimg.com/736x/73/b2/ab/73b2ab0e9e33693b9fe0bd43dfc1eeb4.jpg" alt="" onclick="setBackGround()"></span>
+             </div>
+             <span class="hide" id="hid">Text color</span>
+             <div class="btn">
+                <button id="postBtn" class="hide" onclick="post()">post</button>
+                
+             </div>
+             <div class="comment" id="iconNone">
+                 <hr>
+                 <hr>
+                 <hr>
+                <div class="like">
+                   <i class="fa-regular fa-thumbs-up" id="likee" onclick="likeBtn()"><span>like</span></i>
+                   <i class="fa-regular fa-comment"><span>Comment</span></i>
+                   <i class="fa-solid fa-share"><span>share</span></i>
+                </div>
+             </div>
+             <div class="made">
+                <h5>© Made by Musa Al Qadri</h5>
+             </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

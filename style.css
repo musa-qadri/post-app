@@ -1,0 +1,167 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(62, 62, 201);
+}
+.main{
+    width: 100%;
+    margin: 0px;
+    padding: 0%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   /* background-color: blue; */
+
+}
+
+.nav{
+    text-align: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    margin: 0px;
+    color: white;
+    background-color: rgb(1, 23, 145);
+    /* margin-top: -20px; */
+}
+
+.postBox{
+    padding: 5px;
+    background-color: rgb(218, 213, 213);
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+}
+
+.head{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(212, 207, 198);
+    padding: 0px;
+    margin: 0px;
+    height: 59px;
+    box-shadow: 3px 2px 2px gray;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+}
+.name img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+.name input{
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.inputs{
+   display: flex;
+   flex-direction: column;
+   line-height: 1px;
+   gap: 0px;
+}
+.inputs input{
+    background-color: transparent;
+    border: none;
+    box-shadow: 2px 2px 2px gray;
+} 
+.inputs h4{
+    margin-left: 10px;
+    line-height: 1px;
+} 
+.postarea{
+    padding: 20px;
+}
+.postarea textarea{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    height: 110px;
+}
+/* .postarea input{
+    width: 95%;
+    height: 30px !important;
+    padding: 10px;
+    font-size: 50px;
+    text-align: start;
+    background-color: transparent;
+} */
+.style{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 22px;
+    margin: -20px;
+    /* line-height: 7px; */
+}
+.style input{
+    background-color: transparent;
+    width: 40px;
+}
+.backgroungset{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.backgroungset img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.backgroungset input{
+    width: 40px ;
+    height: 40px ;
+    border-radius: 20px;
+}
+.btn{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn button{
+    width: 90%;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 17px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.made{
+    align-items: center;
+    text-align: center;
+    margin-bottom:-10px;
+}
+.hide{
+    display: block;
+}
+.like{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.like span{
+    font-size: 13px;
+    padding-left: 6px;
+    padding-bottom: 7px;
+}
+
+.like:hover{
+    font-size: 22px;
+}
+.comment{
+    display: none;
+}
